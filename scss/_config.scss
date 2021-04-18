@@ -6,7 +6,9 @@ $secondary-color: #ff652f;
   margin: 0;
   padding: 0;
 }
-
+// This is to make the icons transition slowly to a color when you hover over them
+// it will also later be used for the hamburger menu contents
+// we want to reuse it, which is why we aren't targeting something specifically
 @mixin transition-ease {
   transition: all 0.5s ease-in-out;
 }
@@ -19,6 +21,7 @@ $secondary-color: #ff652f;
   }
 }
 
+// these are mixins for media queries
 @mixin media-md {
   @media screen and (min-width: 768px) {
     @content;

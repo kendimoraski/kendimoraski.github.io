@@ -4,8 +4,7 @@
   &__bio-image {
     height: 30vh;
     width: 100%;
-    background: 
-      linear-gradient(
+    background: linear-gradient(
         to right,
         rgba($primary-color, 0.9),
         rgba($primary-color, 0.3)
@@ -31,7 +30,9 @@
     grid-gap: 2rem;
   }
 
+  // this is for the colored overlay that will appear when you hover over a project item (default orange)
   &__item {
+    // we do this b/c we need to absolutely position other items
     position: relative;
     border-bottom: 5px solid $secondary-color;
     overflow: hidden;
@@ -43,6 +44,7 @@
 
     &::after {
       content: '';
+      // this is why we made the parent container position: relative
       position: absolute;
       top: 100%;
       left: 0;
@@ -76,12 +78,14 @@
     text-align: center;
   }
 
+  // target individual button
   &__btn {
     opacity: 0;
     color: set-text-color($secondary-color);
     @include transition-ease;
 
     &:hover {
+      // this sets the text color to black instead of the normal secondary-color of white because it's wrapping it, but when you hover over the actual text, it changes to white
       color: set-text-color(set-text-color($secondary-color));
     }
   }
@@ -92,9 +96,6 @@
   }
 
   footer {
-    transform:
-      rotate(90deg)
-      translate(-3rem, -5rem);
+    transform: rotate(90deg) translate(-3rem, -5rem);
   }
-  
 }

@@ -2,14 +2,16 @@ const menuBtn = document.querySelector('.menu-btn');
 const hamburger = document.querySelector('.menu-btn__burger');
 const nav = document.querySelector('.nav');
 const menuNav = document.querySelector('.menu-nav');
+// this returns an array of elements
 const navItems = document.querySelectorAll('.menu-nav__item');
 
 let showMenu = false;
 
 menuBtn.addEventListener('click', toggleMenu);
 
+// this shows what happens when the hamburger menu is open or closed
 function toggleMenu() {
-  if(!showMenu) {
+  if (!showMenu) {
     hamburger.classList.add('open');
     nav.classList.add('open');
     menuNav.classList.add('open');

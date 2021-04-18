@@ -16,7 +16,7 @@
     height: 3px;
     background: set-text-color($primary-color);
     @include transition-ease;
-
+    // this a pseudo-element
     &::before {
       content: '';
       position: absolute;
@@ -46,6 +46,7 @@
       }
 
       &::after {
+        // bottom line is a little shorter
         width: 28px;
         transform: rotate(-45deg) translate(3px, -7px);
       }
@@ -53,6 +54,7 @@
   }
 }
 
+// this is for the menu when it is opened from the hamburger icon, or when the screen is wide enough
 .nav {
   position: fixed;
   top: 0;
@@ -75,6 +77,7 @@
     background: $primary-color;
     list-style-type: none;
     padding-right: 1rem;
+    // this is the vertical and makes the menu start from the top
     transform: translateY(-100%);
     @include transition-ease;
 
@@ -87,7 +90,7 @@
       @include transition-ease;
 
       &.open {
-       transform: translateX(0); 
+        transform: translateX(0);
       }
 
       &.active > a {
@@ -110,8 +113,11 @@
   }
 }
 
+// this is like a JS for loop
+// it will iterate through the links that are each items in the nav
 @for $i from 1 through 4 {
   .menu-nav__item:nth-child(#{$i}) {
+    // this will slow them down and stagger their transition
     transition-delay: ($i * 0.1s) + 0.15s;
   }
 }

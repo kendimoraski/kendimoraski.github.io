@@ -57,7 +57,12 @@
 }
 
 @include media-xl {
-  .projects__bio-image {
-    height: 50vh;
+  .projects {
+    &__bio-image {
+      height: 50vh;
+    }
+    // &__items {
+    //   grid-template-columns: repeat(2, 1fr);
+    // }
   }
 }
