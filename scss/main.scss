@@ -1,10 +1,16 @@
-@import 'config', 'home', 'menu', 'about', 'projects', 'contact', 'responsive';
+@import 'config';
+@import 'home';
+@import 'menu';
+@import 'about';
+@import 'projects';
+@import 'contact';
+@import 'responsive';
 
 body {
   background: $primary-color;
   color: set-text-color($primary-color);
   height: 100vh;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Exo', sans-serif;
   line-height: 1;
 }
 
