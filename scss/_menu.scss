@@ -46,7 +46,6 @@
       }
 
       &::after {
-        // bottom line is a little shorter
         width: 28px;
         transform: rotate(-45deg) translate(3px, -7px);
       }
@@ -69,6 +68,7 @@
 
   .menu-nav {
     display: flex;
+    // this is if we have a weird device height
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
@@ -116,6 +116,7 @@
 // this is like a JS for loop
 // it will iterate through the links that are each items in the nav
 @for $i from 1 through 4 {
+  // similar to template literals with JSX?
   .menu-nav__item:nth-child(#{$i}) {
     // this will slow them down and stagger their transition
     transition-delay: ($i * 0.1s) + 0.15s;
