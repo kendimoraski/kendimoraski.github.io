@@ -1,5 +1,6 @@
 .projects {
   padding-bottom: 2rem;
+  font-family: 'Exo', sans-serif;
 
   &__bio-image {
     height: 30vh;
@@ -9,7 +10,7 @@
         rgba($primary-color, 0.9),
         rgba($primary-color, 0.3)
       ),
-      url('../img/model-1.jpg') center top;
+      url('../img/Honey.jpeg') center top;
     background-size: cover;
     display: flex;
     flex-direction: column;

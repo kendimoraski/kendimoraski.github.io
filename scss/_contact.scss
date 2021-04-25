@@ -5,13 +5,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: 
-    linear-gradient(
+  background: linear-gradient(
       to right,
       rgba($primary-color, 0.9),
       rgba($primary-color, 0.3)
     ),
-    url('../img/model-1.jpg') center top;
+    url('../img/Honey.jpeg') center top;
   background-size: cover;
 
   h2 {

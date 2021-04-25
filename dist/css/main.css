@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Exo", sans-serif;
 }
 
 .home {
@@ -144,7 +145,7 @@
 .about__bio-image {
   height: 50vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(59, 45, 56, 0.9), rgba(59, 45, 56, 0.3)), url("../img/model-1.jpg") center top;
+  background: linear-gradient(to right, rgba(59, 45, 56, 0.9), rgba(59, 45, 56, 0.3)), url("../img/Honey.jpeg") center top;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -190,11 +191,12 @@
 
 .projects {
   padding-bottom: 2rem;
+  font-family: "Exo", sans-serif;
 }
 .projects__bio-image {
   height: 30vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(59, 45, 56, 0.9), rgba(59, 45, 56, 0.3)), url("../img/model-1.jpg") center top;
+  background: linear-gradient(to right, rgba(59, 45, 56, 0.9), rgba(59, 45, 56, 0.3)), url("../img/Honey.jpeg") center top;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -273,7 +275,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(to right, rgba(59, 45, 56, 0.9), rgba(59, 45, 56, 0.3)), url("../img/model-1.jpg") center top;
+  background: linear-gradient(to right, rgba(59, 45, 56, 0.9), rgba(59, 45, 56, 0.3)), url("../img/Honey.jpeg") center top;
   background-size: cover;
 }
 .contact h2 {
