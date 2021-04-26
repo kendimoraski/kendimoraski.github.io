@@ -1,2 +1,1 @@
-# Sass Portfolio Tutorial
-This is part of my Sass tutorial on YouTube.
+I used the tutorial from codeSTACKr's freeCodeCamp.org YouTube channel to build my portfolio using Sass.
