@@ -1,9 +1,4 @@
-@import 'config', 'home';
-@import 'menu';
-@import 'about';
-@import 'projects';
-@import 'contact';
-@import 'responsive';
+@import 'config', 'home', 'menu', 'about', 'projects', 'contact', 'responsive';
 
 body {
   background: $primary-color;
