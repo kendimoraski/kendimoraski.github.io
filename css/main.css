@@ -11,7 +11,7 @@
   overflow: hidden;
   align-items: center;
   text-align: center;
-  background: linear-gradient(to right, rgba(59, 45, 56, 0.9), rgba(59, 45, 56, 0.3)), url("../img/sass.png") center top;
+  background: linear-gradient(to right, rgba(59, 45, 56, 0.9), rgba(59, 45, 56, 0.3)), url("../img/shahadat-rahman-unsplash.jpeg") center top;
   background-size: cover;
 }
 .home__name {
@@ -158,6 +158,7 @@
 .about__bio {
   width: 80%;
   text-align: center;
+  background: #3b2d38;
 }
 .about__bio .text-secondary {
   padding-bottom: 1rem;
