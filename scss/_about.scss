@@ -1,5 +1,5 @@
 .about {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 
   &__bio-image {
     height: 50vh;
@@ -9,7 +9,7 @@
         rgba($primary-color, 0.9),
         rgba($primary-color, 0.3)
       ),
-      url('../img/about.jpg') center top;
+      url('../img/Honey.jpeg') center top;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,8 @@
 
     // this is the bio paragraph
     p {
-      margin-bottom: 2rem;
+      line-height: 1.1;
+      margin-bottom: 0.5rem;
     }
   }
 
@@ -26,9 +27,11 @@
     width: 80%;
     text-align: center;
     background: $primary-color;
+    border-width: 10px;
+    border-color: $secondary-color;
 
     .text-secondary {
-      padding-bottom: 1rem;
+      padding-bottom: 0.5rem;
     }
   }
 
@@ -49,8 +52,13 @@
         margin: 0.5rem 0;
       }
 
-      h6 {
+      h4 {
         margin: 0.3rem 0;
+      }
+
+      p {
+        margin-top: 0.3rem;
+        line-height: 1.2;
       }
     }
   }

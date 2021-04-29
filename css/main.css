@@ -139,13 +139,17 @@
   transition-delay: 0.55s;
 }
 
+.menu-nav__item:nth-child(5) {
+  transition-delay: 0.65s;
+}
+
 .about {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 .about__bio-image {
   height: 50vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(59, 45, 56, 0.9), rgba(59, 45, 56, 0.3)), url("../img/about.jpg") center top;
+  background: linear-gradient(to right, rgba(59, 45, 56, 0.9), rgba(59, 45, 56, 0.3)), url("../img/Honey.jpeg") center top;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -153,15 +157,18 @@
   justify-content: flex-end;
 }
 .about__bio-image p {
-  margin-bottom: 2rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
 }
 .about__bio {
   width: 80%;
   text-align: center;
   background: #3b2d38;
+  border-width: 10px;
+  border-color: #f02475;
 }
 .about__bio .text-secondary {
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 .about .jobs {
   width: 60vw;
@@ -179,8 +186,12 @@
 .about .jobs__job h3 {
   margin: 0.5rem 0;
 }
-.about .jobs__job h6 {
+.about .jobs__job h4 {
   margin: 0.3rem 0;
+}
+.about .jobs__job p {
+  margin-top: 0.3rem;
+  line-height: 1.2;
 }
 .about .social-icons {
   display: flex;
@@ -276,7 +287,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(to right, rgba(59, 45, 56, 0.9), rgba(59, 45, 56, 0.3)), url("../img/futuristic.jpeg") center top;
+  background: linear-gradient(to right, rgba(59, 45, 56, 0.9), rgba(59, 45, 56, 0.3)), url("../img/goran-ivos-unsplash.jpeg") center top;
   background-size: cover;
 }
 .contact h2 {
@@ -341,7 +352,7 @@
   }
 
   .contact__list {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (min-width: 1600px) {
@@ -370,6 +381,10 @@ a {
 
 .text-secondary {
   color: #f02475;
+}
+
+.text-tertiary {
+  color: #f27435;
 }
 
 header {

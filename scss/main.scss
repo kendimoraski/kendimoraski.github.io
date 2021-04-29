@@ -23,6 +23,10 @@ a {
   color: $secondary-color;
 }
 
+.text-tertiary {
+  color: $tertiary-color;
+}
+
 header {
   position: fixed;
   z-index: 2;
