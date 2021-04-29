@@ -9,29 +9,31 @@
         rgba($primary-color, 0.9),
         rgba($primary-color, 0.3)
       ),
-      url('../img/Honey.jpeg') center top;
+      url('../img/about.jpg') center top;
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
 
-    // this is the bio paragraph
-    p {
-      line-height: 1.1;
-      margin-bottom: 0.5rem;
+    .text-secondary {
+      font-size: 3rem;
+      margin-bottom: 2rem;
     }
   }
 
   &__bio {
-    width: 80%;
     text-align: center;
     background: $primary-color;
     border-width: 10px;
     border-color: $secondary-color;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
 
-    .text-secondary {
-      padding-bottom: 0.5rem;
+    p {
+      line-height: 1.1;
+      margin-bottom: 0.5rem;
     }
   }
 

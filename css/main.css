@@ -149,26 +149,29 @@
 .about__bio-image {
   height: 50vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(59, 45, 56, 0.9), rgba(59, 45, 56, 0.3)), url("../img/Honey.jpeg") center top;
+  background: linear-gradient(to right, rgba(59, 45, 56, 0.9), rgba(59, 45, 56, 0.3)), url("../img/about.jpg") center top;
   background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
 }
-.about__bio-image p {
-  line-height: 1.1;
-  margin-bottom: 0.5rem;
+.about__bio-image .text-secondary {
+  font-size: 3rem;
+  margin-bottom: 2rem;
 }
 .about__bio {
-  width: 80%;
   text-align: center;
   background: #3b2d38;
   border-width: 10px;
   border-color: #f02475;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
 }
-.about__bio .text-secondary {
-  padding-bottom: 0.5rem;
+.about__bio p {
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
 }
 .about .jobs {
   width: 60vw;
@@ -203,7 +206,6 @@
 
 .projects {
   padding-bottom: 2rem;
-  font-family: "Exo", sans-serif;
 }
 .projects__bio-image {
   height: 30vh;
