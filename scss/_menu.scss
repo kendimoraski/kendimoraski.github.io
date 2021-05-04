@@ -115,7 +115,7 @@
 
 // this is like a JS for loop
 // it will iterate through the links that are each items in the nav
-@for $i from 1 through 5 {
+@for $i from 1 through 6 {
   // similar to template literals with JSX?
   .menu-nav__item:nth-child(#{$i}) {
     // this will slow them down and stagger their transition
