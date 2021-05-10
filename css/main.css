@@ -199,6 +199,9 @@
   margin-top: 0.3rem;
   line-height: 1.2;
 }
+.about .jobs__job a {
+  color: #f27435;
+}
 .about .social-icons {
   display: flex;
   flex-direction: column;
